@@ -43,7 +43,7 @@ def weapons(request):
 
     dict = {'page_obj': page_obj, 'form': form}
 
-    return render(request, 'weapons/weapons.html', dict)dfs
+    return render(request, 'weapons/weapons.html', dict)
 
 
 def wear(request):
